@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divine Coding Classes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="scss/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <div class="header-logo">
+          <a href="index.html">
+            <img src="assets/logo.png" alt="logo" />
+          </a>
+        </div>
+        <div class="header-navigation-bar" id="headerNavMenu">
+          <ul>
+            <li>
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#course">Courses</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <button onclick="ShowMobileMenu()" class="mobile-menu-bar"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <button onclick="HideMobileMenu()" class="close-menu" id="closeMenuIcon"><i class="fa fa-times" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </header>
+  <div class="banner">
+    <div class="banner-overlay"></div>
+    <div class="home-video-wrapper">
+      <video autoplay muted loop>
+        <source src="assets/home-bg.mp4" />
+      </video>
+      <div class="home-video-text">
+        <div class="container">
+          <h1>Get the tech career you deserve. Faster.</h1>
+          <p>
+            Discover the power of code at Divine Coding Classes.<br />
+            Ignite your passion for programming!
+          </p>
+          <a href="#course">Explore Courses
+            <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="banner-bottom-wrapper">
+    <div class="container">
+      <div class="banner-bottom-inner">
+        <div class="banner-bottom-inner-box">
+          <h3>
+            Your success is our mission,
+            and we are dedicated to helping
+            you reach your goal.
+          </h3>
+        </div>
+        <div class="banner-bottom-inner-box">
+          <p>
+            At Divine Coding Classes, we dream of a future where everyone can
+            succeed in the fast-changing tech world. Our goal is to become a
+            top institute that turns eager learners into talented IT experts.
+            We want to give them the skills and flexibility to make a big
+            impact in the digital world.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="coaching-qualities-wrapper">
+    <div class="container">
+      <div class="qualities-wrapper">
+        <div class="quality-box first expanded">
+          <div class="content">
+            <h2>1000+</h2>
+            <p class="quality-box-first-text">Students Enrolled</p>
+            <p class="quality-box-second-text">With a commitment to excellence in education, we proudly support over
+              1000
+              students, providing them with top-notch training and resources to excel in their chosen fields.</p>
+          </div>
+        </div>
+        <div class="quality-box second">
+          <div class="content">
+            <h2>30+</h2>
+            <p class="quality-box-first-text">Courses Offered</p>
+            <p class="quality-box-second-text">Explore a diverse range of over 30 expertly designed courses, each
+              tailored to provide comprehensive knowledge and practical skills across various disciplines.</p>
+          </div>
+        </div>
+        <div class="quality-box third">
+          <div class="content">
+            <h2>1000+</h2>
+            <p class="quality-box-first-text">Projects Created by Students</p>
+            <p class="quality-box-second-text">Our students have successfully completed over 1000 innovative projects,
+              showcasing their creativity, practical skills, and the real-world application of their knowledge.</p>
+          </div>
+        </div>
+        <div class="quality-box forth">
+          <div class="content">
+            <h2>10+</h2>
+            <p class="quality-box-first-text">Expert Instructors</p>
+            <p class="quality-box-second-text">Highlight the number of seasoned professionals teaching the courses.</p>
+          </div>
+        </div>
+        <div class="quality-box fifth">
+          <div class="content">
+            <h2>40+</h2>
+            <p class="quality-box-first-text">Workshops and Webinars</p>
+            <p class="quality-box-second-text">40+ Workshops and Webinars Conducted” – Reflecting the breadth of
+              additional educational opportunities provided.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="courses-logo-wrapper" id="course">
+    <div class="container">
+      <h3 class="course-logo-heading">Our Courses</h3>
+      <div class="courses-box-wrapper">
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/c-course.html" class="courses-box">
+              <img src="assets/course-bca-icon.svg" alt="mobile" />
+              <p>C Language</p>
+            </a>
+          </div>
+        </div>
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/c++-course.html" class="courses-box">
+              <img src="assets/course-bca-icon.svg" alt="mobile" />
+              <p>C++ Language</p>
+            </a>
+          </div>
+        </div>
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/python-begineer-course.html" class="courses-box">
+              <img src="assets/python-course-icon.svg" alt="mobile" />
+              <p>Python (Beginners)</p>
+            </a>
+          </div>
+        </div>
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/python-with-django.html" class="courses-box">
+              <img src="assets/python-course-icon.svg" alt="mobile" />
+              <p>Python With Django</p>
+            </a>
+          </div>
+        </div>
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/data-structure-course.html" class="courses-box">
+              <img src="assets/course-bca-icon.svg" alt="mobile" />
+              <p>Data Structure</p>
+            </a>
+          </div>
+        </div>
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/core-java-course.html" class="courses-box">
+              <img src="assets/course-bca-icon.svg" alt="mobile" />
+              <p>Core Java</p>
+            </a>
+          </div>
+        </div>
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/advance-java-course.html" class="courses-box">
+              <img src="assets/course-bca-icon.svg" alt="mobile" />
+              <p>Advance Java</p>
+            </a>
+          </div>
+        </div>
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/frontend-course.html" class="courses-box">
+              <img src="assets/software-course-icon.svg" alt="mobile" />
+              <p>Frontend Development (React)</p>
+            </a>
+          </div>
+        </div>
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/backend-course.html" class="courses-box">
+              <img src="assets/software-course-icon.svg" alt="mobile" />
+              <p>Backend Development (Node)</p>
+            </a>
+          </div>
+        </div>
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/full-stack-course.html" class="courses-box">
+              <img src="assets/software-course-icon.svg" alt="mobile" />
+              <p>Full Stack Development</p>
+            </a>
+          </div>
+        </div>
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/mobile-kotlin-course.html" class="courses-box">
+              <img src="assets/mobile.svg" alt="mobile" />
+              <p>Mobile Development (Kotlin)</p>
+            </a>
+          </div>
+        </div>
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/digital-marketing-course.html" class="courses-box">
+              <img src="assets/digital-course-icon.svg" alt="mobile" />
+              <p>Digital Marketing</p>
+            </a>
+          </div>
+        </div>
+        <div class="course-detail-outer-box">
+          <div class="courses-box-outer">
+            <a href="courses/web-design-course.html" class="courses-box">
+              <img src="assets/software-course-icon.svg" alt="mobile" />
+              <p>Web Designing</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="coaching-course-wrapper">
+    <div class="container">
+      <h2 class="coaching-course-heading">Courses Designed to Drive Digital Transformation</h2>
+      <div class="coaching-course-inner">
+        <div class="coaching-course-left">
+          <ul>
+            <li>
+              <button class="coaching-course-btn active" class="coaching-course-btn"
+                onclick="courseSelector('frontend')">
+                <div class="button-left">
+                  <div class="button-left-image-box">
+                    <img src="assets/frontend-icon.svg" alt="icon" class="left-icon" />
+                  </div>
+                  Frontend Programming Languages
+                </div>
+                <img src="assets/right-arrow.svg" alt="icon" class="right-icon" />
+              </button>
+            </li>
+            <li>
+              <button class="coaching-course-btn" onclick="courseSelector('backend')">
+                <div class="button-left">
+                  <div class="button-left-image-box">
+                    <img src="assets/backend-programming-languages-icon.svg" alt="icon" class="left-icon" />
+                  </div>
+                  Backend Programming Languages
+                </div>
+                <img src="assets/right-arrow.svg" alt="icon" class="right-icon" />
+              </button>
+            </li>
+            <li>
+              <button class="coaching-course-btn" onclick="courseSelector('mobile')">
+                <div class="button-left">
+                  <div class="button-left-image-box">
+                    <img src="assets/mobile-icon.svg" alt="icon" class="left-icon" />
+                  </div>
+                  Mobile Development
+                </div>
+                <img src="assets/right-arrow.svg" alt="icon" class="right-icon" />
+              </button>
+            </li>
+            <li>
+              <button class="coaching-course-btn" onclick="courseSelector('bcacourse')">
+                <div class="button-left">
+                  <div class="button-left-image-box">
+                    <img src="assets/bca-icon.svg" alt="icon" class="left-icon" />
+                  </div>
+                  BCA Course
+                </div>
+                <img src="assets/right-arrow.svg" alt="icon" class="right-icon" />
+              </button>
+            </li>
+            <li>
+              <button class="coaching-course-btn" onclick="courseSelector('database')">
+                <div class="button-left">
+                  <div class="button-left-image-box">
+                    <img src="assets/database-icon.svg" alt="icon" class="left-icon" />
+                  </div>
+                  Databases / Data Storage
+                </div>
+                <img src="assets/right-arrow.svg" alt="icon" class="right-icon" />
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="coaching-course-right">
+          <div class="coaching-course-right-box-wrapper show">
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/html-logo.svg" alt="html-logo" />
+                </div>
+                <p>HTML</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/css-logo.svg" alt="css-logo" />
+                </div>
+                <p>CSS</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/javascript-lg.svg" alt="js-logo" />
+                </div>
+                <p>Javascript</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/react-logo-icon.svg" alt="react-logo" />
+                </div>
+                <p>React</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/nextlogo.svg" alt="next-logo" />
+                </div>
+                <p>Next</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/ng-logo.svg" alt="ng-logo" />
+                </div>
+                <p>Angular</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/ng-logo.svg" alt="ng-logo" />
+                </div>
+                <p>Angular</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/vuejs-logo.svg" alt="vue-logo" />
+                </div>
+                <p>Vue.js</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/sass-logo.png" alt="sass-logo" />
+                </div>
+                <p>Sass</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/tailwind-logo.png" alt="sass-logo" />
+                </div>
+                <p>Tailwind</p>
+              </div>
+            </div>
+          </div>
+          <div class="coaching-course-right-box-wrapper">
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/python-logo.svg" alt="python-logo" />
+                </div>
+                <p>Python</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/nodejs-logo.svg" alt="nodejs-logo" />
+                </div>
+                <p>Node.js</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/dotnet-logo.svg" alt="dotnet-logo" />
+                </div>
+                <p>.Net</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/java-logo.svg" alt="java-logo" />
+                </div>
+                <p>Java</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/express-logo.png" alt="express-logo" />
+                </div>
+                <p>Express</p>
+              </div>
+            </div>
+          </div>
+          <div class="coaching-course-right-box-wrapper">
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/android-logo.svg" alt="android-logo" />
+                </div>
+                <p>Android</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/react-native-logo.svg" alt="react-native-logo" />
+                </div>
+                <p>React Native</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/ionic-logo.svg" alt="ionic-logo" />
+                </div>
+                <p>Ionic</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/mobile-ios.svg" alt="ios-logo" />
+                </div>
+                <p>IOS</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/flutter-logo.svg" alt="flutter-logo" />
+                </div>
+                <p>Flutter</p>
+              </div>
+            </div>
+          </div>
+          <div class="coaching-course-right-box-wrapper">
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/c-logo.png" alt="c-logo" />
+                </div>
+                <p>C</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/cplus-logo.png" alt="cplus-logo" />
+                </div>
+                <p>C++</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/ds-logo.png" alt="ds-logo" />
+                </div>
+                <p>DS</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/java-logo.svg" alt="java-logo" />
+                </div>
+                <p>Java</p>
+              </div>
+            </div>
+          </div>
+          <div class="coaching-course-right-box-wrapper">
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/mysql-logo.svg" alt="mysql-logo" />
+                </div>
+                <p>MySQL</p>
+              </div>
+            </div>
+            <div class="coacing-course-right-box-column">
+              <div class="coacing-course-right-box">
+                <div class="coaching-course-right-logo-box">
+                  <img src="assets/mongodb-logo.png" alt="mongodb-logo" />
+                </div>
+                <p>mongo DB</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="home-contact-wrapper">
+    <div class="container">
+      <div class="home-contact-inner">
+        <div class="home-contact-inner-left">
+          <h3>
+            Unlock your potential with us, and watch your career dreams come to life.
+          </h3>
+          <p>Embark on your coding journey with Divine today.</p>
+        </div>
+        <div class="home-contact-inner-right">
+          <div class="home-contact-box">
+            <input type="text" placeholder="Full Name" /> <br />
+            <input type="text" placeholder="Email Address" /> <br />
+            <input type="text" placeholder="Phone Number" /> <br />
+            <input type="text" placeholder="Address" /> <br />
+            <textarea placeholder="Enter your message here"></textarea> <br />
+            <button onclick="sendEmail()">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="placement-partners-wrapper">
+    <div class="container">
+      <h2>Our Placement Partners</h2>
+      <div class="placement-inner-wrapper">
+        <div class="placementslider">
+          <div>
+            <img src="assets/accenture-logo.webp" alt="company logo" />
+          </div>
+          <div>
+            <img src="assets/algo-logo.webp" alt="company logo" />
+          </div>
+          <div>
+            <img src="assets/cog-logo.webp" alt="company logo" />
+          </div>
+          <div>
+            <img src="assets/stria-logo.webp" alt="company logo" />
+          </div>
+          <div>
+            <img src="assets/jubilant-logo.webp" alt="company logo" />
+          </div>
+          <div>
+            <img src="assets/csc-logo.webp" alt="company logo" />
+          </div>
+          <div>
+            <img src="assets/jubilant-logo.webp" alt="company logo" />
+          </div>
+          <div>
+            <img src="assets/csc-logo.webp" alt="company logo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="divine-review-wrapper" id="reviews">
+    <div class="container">
+      <h2 class="divine-review-heading">Our Student Testimonials</h2>
+      <div class="divine-review-inner">
+        <div class="divine-review-column">
+          <div class="divine-review-box">
+            <div class="divine-review-box-top">
+              <div class="divine-review-image-box">
+                <img src="assets/garima.jpeg" alt="profile" />
+              </div>
+              <div class="divine-review-box-top-right">
+                <h3>Garima</h3>
+                <p class="divine-review-text-1">Frontend Development</p>
+                <p class="divine-review-text-2">I.P. College Bulandshahr</p>
+              </div>
+            </div>
+            <p class="divine-review-text">The Frontend Development course was comprehensive and engaging. The
+              instructor's expertise, combined with the practical approach of the curriculum, has significantly enhanced
+              my proficiency in all aspects of web frontend development.</p>
+          </div>
+        </div>
+        <div class="divine-review-column">
+          <div class="divine-review-box">
+            <div class="divine-review-box-top">
+              <div class="divine-review-image-box">
+                <img src="assets/anamika.jpeg" alt="profile" />
+              </div>
+              <div class="divine-review-box-top-right">
+                <h3>Anamika</h3>
+                <p class="divine-review-text-1">Frontend Development</p>
+                <p class="divine-review-text-2">I.P. College Bulandshahr</p>
+              </div>
+            </div>
+            <p class="divine-review-text">I had a truly exceptional experience with the training program. The
+              instruction was outstanding, especially from Manish Sir, who provided invaluable support both in class and
+              beyond, always available to clarify doubts or offer assistance whenever I needed it.</p>
+          </div>
+        </div>
+        <div class="divine-review-column">
+          <div class="divine-review-box">
+            <div class="divine-review-box-top">
+              <div class="divine-review-image-box">
+                <img src="assets/madhu.jpg" alt="profile" />
+              </div>
+              <div class="divine-review-box-top-right">
+                <h3>Madhu</h3>
+                <p class="divine-review-text-1">Frontend Development</p>
+                <p class="divine-review-text-2">ABES Ghaziabad</p>
+              </div>
+            </div>
+            <p class="divine-review-text">Divine is an outstanding learning environment. I enrolled in the Frontend
+              Development course under the guidance of Mr. Manish Gupta, who has been exceptionally supportive and
+              actively engaged. His extensive knowledge of web development has helped clarify my fundamentals.</p>
+          </div>
+        </div>
+        <div class="divine-review-column">
+          <div class="divine-review-box">
+            <div class="divine-review-box-top">
+              <div class="divine-review-image-box">
+                <img src="assets/honeykant.jpg" alt="profile" />
+              </div>
+              <div class="divine-review-box-top-right">
+                <h3>Honeykant</h3>
+                <p class="divine-review-text-1">C, DS, C++, Frontend Development</p>
+                <p class="divine-review-text-2">I.P. College Bulandshahr</p>
+              </div>
+            </div>
+            <p class="divine-review-text">
+              The C, C++, Data Structures, and Frontend Development courses were exceptional! The clear and engaging
+              instruction made complex topics easy to grasp, and the hands-on approach greatly enhanced my skills. I
+              feel well-prepared for future challenges in these areas.
+          </div>
+        </div>
+        <div class="divine-review-column">
+          <div class="divine-review-box">
+            <div class="divine-review-box-top">
+              <div class="divine-review-image-box">
+                <img src="assets/deepak.jpeg" alt="profile" />
+              </div>
+              <div class="divine-review-box-top-right">
+                <h3>Deepak</h3>
+                <p class="divine-review-text-1">C, C++, DS, Frontend Development</p>
+                <p class="divine-review-text-2">I.P. College Bulandshahr</p>
+              </div>
+            </div>
+            <p class="divine-review-text">The courses in C, C++, Data Structures, and Frontend Development exceeded my
+              expectations. The instruction was clear and engaging, making complex concepts easy to understand. This
+              practical experience has greatly strengthened my skills and readiness for future challenges.</p>
+          </div>
+        </div>
+        <div class="divine-review-column">
+          <div class="divine-review-box">
+            <div class="divine-review-box-top">
+              <div class="divine-review-image-box">
+                <img src="assets/shiva.jpeg" alt="profile" />
+              </div>
+              <div class="divine-review-box-top-right">
+                <h3>Shiva</h3>
+                <p class="divine-review-text-1">C, C++, DS, Frontend Development</p>
+                <p class="divine-review-text-2">I.P. College Bulandshahr</p>
+              </div>
+            </div>
+            <p class="divine-review-text">I had an excellent experience with the C, C++, Data Structures, and Frontend
+              Development courses. The teaching was insightful and engaging, allowing me to easily understand complex
+              concepts. The practical applications provided have greatly improved my skills and confidence moving
+              forward.</p>
+          </div>
+        </div>
+        <div class="divine-review-column">
+          <div class="divine-review-box">
+            <div class="divine-review-box-top">
+              <div class="divine-review-image-box">
+                <img src="assets/aarti.jpeg" alt="profile" />
+              </div>
+              <div class="divine-review-box-top-right">
+                <h3>Aarti</h3>
+                <p class="divine-review-text-1">C, C++, Java, Frontend Development</p>
+                <p class="divine-review-text-2">I.P. College Bulandshahr</p>
+              </div>
+            </div>
+            <p class="divine-review-text">My experience with the C, C++, Data Structures, and Frontend Development
+              courses at Divine was remarkable. The engaging instruction made challenging topics accessible, and the
+              hands-on projects significantly boosted my confidence in these areas.</p>
+          </div>
+        </div>
+        <div class="divine-review-column">
+          <div class="divine-review-box">
+            <div class="divine-review-box-top">
+              <div class="divine-review-image-box">
+                <img src="assets/sujal.jpeg" alt="profile" />
+              </div>
+              <div class="divine-review-box-top-right">
+                <h3>Sujal</h3>
+                <p class="divine-review-text-1">C, C++, Java, Frontend Development</p>
+                <p class="divine-review-text-2">I.P. College Bulandshahr</p>
+              </div>
+            </div>
+            <p class="divine-review-text">The C, C++, Data Structures, and Frontend Development courses at Divine
+              offered an outstanding learning experience. The engaging instruction made complex topics easy to grasp,
+              and the practical projects significantly enhanced my confidence in my skills.</p>
+          </div>
+        </div>
+        <div class="divine-review-column">
+          <div class="divine-review-box">
+            <div class="divine-review-box-top">
+              <div class="divine-review-image-box">
+                <img src="assets/riti.jpeg" alt="profile" />
+              </div>
+              <div class="divine-review-box-top-right">
+                <h3>Riti</h3>
+                <p class="divine-review-text-1">C, C++, DS, Frontend Development</p>
+                <p class="divine-review-text-2">I.P. College Bulandshahr</p>
+              </div>
+            </div>
+            <p class="divine-review-text">
+              The C, C++, Data Structures, and Frontend Development courses at Divine enhanced my programming skills.
+              Engaging instructors and hands-on projects helped me apply what I learned effectively. I highly recommend
+              these courses to anyone looking to deepen their tech knowledge.
+            </p>
+          </div>
+        </div>
+        <div class="divine-review-column">
+          <div class="divine-review-box">
+            <div class="divine-review-box-top">
+              <div class="divine-review-image-box">
+                <img src="assets/amar.jpeg" alt="profile" />
+              </div>
+              <div class="divine-review-box-top-right">
+                <h3>Amar</h3>
+                <p class="divine-review-text-1">Frontend Development</p>
+                <p class="divine-review-text-2">Brahmanand Bulandshhar</p>
+              </div>
+            </div>
+            <p class="divine-review-text">
+              My experience with the training program was nothing short of amazing. The teaching was top-notch,
+              particularly with Manish Sir, who went above and beyond in offering support. He was always there, not just
+              during class, but also outside of it, ready to help with any questions or challenges I faced.</p>
+          </div>
+        </div>
+        <div class="divine-review-column">
+          <div class="divine-review-box">
+            <div class="divine-review-box-top">
+              <div class="divine-review-image-box">
+                <img src="assets/priyanshi.jpeg" alt="profile" />
+              </div>
+              <div class="divine-review-box-top-right">
+                <h3>Priyanshi</h3>
+                <p class="divine-review-text-1">C, DS, C++, Frontend Development</p>
+                <p class="divine-review-text-2">I.P. College Bulandshahr</p>
+              </div>
+            </div>
+            <p class="divine-review-text">The training in C, C++, Data Structures, and Frontend Development at Divine
+              Coding Classes was rewarding. The blend of theory and hands-on practice helped me build practical skills,
+              and the instructors offered excellent support throughout. Divine Coding Classes provide a great learning
+              environment to enhance your programming abilities.</p>
+          </div>
+        </div>
+        <div class="divine-review-column">
+          <div class="divine-review-box">
+            <div class="divine-review-box-top">
+              <div class="divine-review-image-box">
+                <img src="assets/kartik.jpg" alt="profile" />
+              </div>
+              <div class="divine-review-box-top-right">
+                <h3>Kartik</h3>
+                <p class="divine-review-text-1">C, C++, DS, Frontend Development</p>
+                <p class="divine-review-text-2">I.P. College Bulandshahr</p>
+              </div>
+            </div>
+            <p class="divine-review-text">The C, C++, Data Structures, and Frontend Development courses at Divine Coding
+              Classes were incredibly valuable. The curriculum combined essential concepts with practical hands-on
+              practice, and the instructors were always available, providing excellent support, making the entire
+              learning experience both enriching and highly effective.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="faq-main-wrapper">
+    <div class="container">
+      <h2 class="faq-heading">Frequently Asked Questions</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-left">
+          <div class="accordion-column">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="false" aria-controls="collapseOne">
+                  What courses do you offer?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  We offer a variety of courses including web development, mobile app development, C, C++, Java, Python
+                  and more. You can check our courses page for detailed descriptions.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-column">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What is the duration of the courses?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Course durations vary, typically ranging from a few weeks for short bootcamps to several months for
+                  in-depth programs.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-column">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Do you offer online classes?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Currently, we do not offer online classes. However, we are actively working on expanding our offerings
+                  to include online options in the future. Stay tuned for updates!
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-column">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  What are the tuition fees?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Tuition fees vary depending on the course. To learn more about the specific fees, please visit our
+                  center for detailed information.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-column">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Can I contact instructors outside of class hours?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Yes, students can reach out to instructors on during designated office hours for additional support.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-right">
+          <div class="accordion-column">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                  How do I enroll in a course?
+                </button>
+              </h2>
+              <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  At this time, enrollment requires a visit to our center, Divine Institute. We look forward to
+                  welcoming you in person!
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-column">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                  What is the class size?
+                </button>
+              </h2>
+              <div id="collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Our classes typically have a maximum of 15-20 students to ensure personalized attention from
+                  instructors.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-column">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                  What are the prerequisites for your courses?
+                </button>
+              </h2>
+              <div id="collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Most of our beginner courses require no prior experience. Advanced courses may have specific
+                  prerequisites, which are listed in the course details.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-column">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                  What resources are available to students?
+                </button>
+              </h2>
+              <div id="collapsenine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Students have access to a variety of resources, including coding labs, online forums, and mentorship
+                  from instructors.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-column">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseten" aria-expanded="false" aria-controls="collapseten">
+                  Can I switch courses after enrolling?
+                </button>
+              </h2>
+              <div id="collapseten" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Yes, students may request to switch courses, subject to availability and prerequisites.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-box-outer first-box">
+          <div class="footer-box info-footer-box">
+            <img src="assets/logo.png" alt="logo" />
+            <p>
+              At Divine, you can access premier coding classes alongside
+              practical industrial training, making it the ultimate software
+              development platform.
+            </p>
+            <ul class="footer-social-links">
+              <li>
+                <a href="https://www.facebook.com/people/Divine-Coding-Classes/61555625692034/" target="_blank"
+                  class="fb-icon-anchor">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/divine_coding_classes/?igsh=eDYwdjkwemV5czlo&utm_source=qr"
+                  target="_blank" class="insta-icon-anchor">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCmcvSHZsfyAOCNwKVPRZ2bw" target="_blank"
+                  class="yt-icon-anchor">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-box-outer second-box">
+          <div class="footer-box">
+            <h4>Important Links</h4>
+            <ul class="footer-nav-links">
+              <li>
+                <a href="index.html">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="about.html">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#course">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Courses
+                </a>
+              </li>
+              <li>
+                <a href="contact.html">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-box-outer third-box">
+          <div class="footer-box">
+            <h4>Useful Links</h4>
+            <ul class="footer-nav-links">
+              <li>
+                <a href="privacy-policy.html">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="refund-policy.html">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Refund Policy
+                </a>
+              </li>
+              <li>
+                <a href="terms-condition.html">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Terms
+                </a>
+              </li>
+              <li>
+                <a href="#reviews">
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                  Reviews
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-box-outer forth-box">
+          <div class="footer-box footer-address-box">
+            <h4>Contact Us</h4>
+            <ul>
+              <li>
+                <p class="first-address">
+                  <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                  <span>Yash Lok Complex, Near Rajdar bar Hotel, DM road,
+                    Bulandshahr - 203001</span>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  +91 7300756001, +91 8533990501
+                </p>
+              </li>
+              <li>
+                <p>
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  divinecodingbsr@gmail.com
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© Copyright 2024 Divine Coding Classes. All Rights Reserved</p>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="custom.js"></script>
+  <script>
+
+    function sendEmail() {
+      Email.send({
+        Host: "smtp.gmail.com",
+        Username: "manishgupta21feb@gmail.com",
+        Password: "96357@MGdev",
+        To: 'divinecodingbsr@gmail.com',
+        From: "manishgupta21feb@gmail.com",
+        Subject: "Sending Email using javascript",
+        Body: "Well that was easy!!",
+      })
+        .then(function (message) {
+          alert("mail sent successfully")
+        });
+    }
+
+  </script>
+
+</body>
+
+</html>

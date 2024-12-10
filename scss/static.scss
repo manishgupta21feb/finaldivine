@@ -1,0 +1,48 @@
+.static-page-banner {
+  background: url('../assets/contact-page-bg.webp');
+  height: 370px;
+}
+.static-page-content {
+  padding: 50px 0 20px 0;
+  h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  p {
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+  ul {
+    list-style-type: disc;
+    margin-left: 18px;
+    margin-bottom: 30px;
+    li {
+      margin-bottom: 12px;
+      line-height: 26px;
+    }
+  }
+}
+
+// static-banner-text
+.static-banner-text {
+  text-align: center;
+  padding-top: 130px;
+  color: white;
+  h2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .banner-divider {
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    margin: 20px auto;
+  }
+}

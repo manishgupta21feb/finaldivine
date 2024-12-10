@@ -1,0 +1,105 @@
+.about-banner {
+  background: url('../assets/about-bg.webp');
+  height: 650px;
+  background-size: cover;
+  .about-text {
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    padding-top: 210px;
+  }
+}
+
+// about-banner-bottom-wrapper
+.about-banner-bottom-wrapper {
+  padding: 70px 0;
+  .about-banner-inner {
+    display: flex;
+    h3 {
+      font-size: 36px;
+      width: 40%;
+      font-weight: 700;
+    }
+    p {
+      width: 60%;
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 32px;
+    }
+  }
+  &.bottom {
+    padding-top: 0;
+  }
+}
+
+// about-divine-info-box
+.about-divine-info-wrapper {
+  margin-bottom: 70px;
+  margin-top: 10px;
+}
+.about-divine-info-box {
+  background-color: #fc7754;
+  height: 220px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  .about-divine-single-box {
+    width: 33.33%;
+    color: white;
+    margin-left: 100px;
+    border-right: 1px solid white;
+    &:last-child {
+      border: none;
+    }
+    h3 {
+      font-size: 50px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+// join-our-team-wrapper 
+.join-our-team-wrapper {
+  margin-bottom: 70px;
+  .join-our-team-inner {
+    display: flex;
+    align-items: center;
+    margin: 0 -30px;
+    .join-our-team-left {
+      width: 50%;
+      margin: 0 30px;
+      h3 {
+        font-size: 38px;
+        font-weight: 600;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 40px;
+      }
+      a {
+        height: 60px;
+        width: 180px;
+        background-color: #126bfb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        color: white;
+        font-size: 17px;
+      }
+    }
+    .join-our-team-right {
+      width: 50%;
+      margin: 0 30px;
+      img {
+        width: 100%
+      }
+    }
+  }
+}

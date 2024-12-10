@@ -1,0 +1,77 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 9;
+  transition: 0.5s;
+}
+header .header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+header .header-logo img {
+  height: 35px;
+}
+header .header-navigation-bar ul {
+  display: flex;
+  align-items: center;
+}
+header .header-navigation-bar ul .nav-link {
+  text-transform: uppercase;
+  color: white;
+  margin: 0 26px;
+  font-size: 15px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  position: relative;
+}
+header .header-navigation-bar ul .nav-link:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: white;
+  height: 1px;
+  transition: 0.3s;
+}
+header .header-navigation-bar ul .nav-link:hover:after {
+  width: 100%;
+  transition: 0.3s;
+}
+header .header-navigation-bar ul li:last-child a {
+  background-color: #126bfb;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 170px;
+  border-radius: 8px;
+  margin-right: 0;
+  padding-bottom: 0;
+  transition: 0.3s;
+  color: white;
+  margin-left: 25px;
+}
+header .header-navigation-bar ul li:last-child a:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+  transition: 0.3s;
+}
+
+.header-scroll {
+  background-color: black;
+  transition: 0.5s;
+  height: 75px;
+}
+.header-scroll .header-inner {
+  height: 75px;
+}/*# sourceMappingURL=header.css.map */
